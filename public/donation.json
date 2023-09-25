@@ -1,0 +1,135 @@
+[
+      {
+        "id": 1,
+        "image": "https://i.ibb.co/f1SjWpg/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "card_bg": "#D9E5FF",
+        "text_color": "#0052FF",
+        "button_bg": "#AEC8FF",
+        "description": "Prioritize your well-being with our extensive selection of health products. Our range encompasses everything you need to support a healthy lifestyle, from vitamins, supplements, and herbal remedies to fitness equipment and wellness essentials. We believe in holistic health, addressing both physical and mental well-being. Whether you're on a journey to enhance your fitness, manage your weight, or boost your overall vitality, we're here to provide you with the tools, knowledge, and resources to help you live your healthiest life.",
+        "price": 290.00
+      },
+      {
+        "id": 2,
+        "image": "https://i.ibb.co/XVKGNzq/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "card_bg": "#FFE3E4",
+        "text_color": "#FF444A",
+        "button_bg": "#FFC3C5",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": 290.00
+      },
+      {
+      "id": 3,
+      "image": "https://i.ibb.co/R39sXQP/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "card_bg": "#EBF6E2",
+      "text_color": "#79C23F",
+      "button_bg": "#D4ECC1",
+      "description": "Elevate your style with our diverse clothing collection. From timeless classics to the latest fashion trends, we offer an extensive range of apparel that caters to your unique tastes and preferences. Whether you're looking for casual comfort or sophisticated elegance, our curated selection includes outfits for every occasion. Express your individuality and make a lasting impression with our high-quality garments. Discover the perfect attire to showcase your personality and elevate your fashion game. Explore our collection and redefine your wardrobe with stylish and versatile clothing options.",
+      "price": 290.00
+    },
+    {
+    "id": 4,
+      "image": "https://i.ibb.co/swZ2ZWd/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "card_bg": "#FEEAE3",
+      "text_color": "#F87147",
+      "button_bg": "#FDD2C4",
+      "description": "Savor the taste of vitality with our enticing array of healthy food options. We believe in nourishing both body and soul, offering a selection of nutritious and delicious choices. From fresh organic produce to wholesome snacks and superfoods, our offerings cater to your well-being. Enjoy guilt-free indulgence while fueling your body with essential nutrients. Whether you're on a wellness journey or simply seeking a balanced diet, our curated selection supports your health goals. Experience the pleasure of eating well with our thoughtfully chosen, health-conscious foods. Elevate your nutrition and savor the goodness of every bite.",
+      "price": 290.00
+    },
+    {
+    "id": 5,
+      "image": "https://i.ibb.co/swZ2ZWd/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "card_bg": "#FEEAE3",
+      "text_color": "#F87147",
+      "button_bg": "#FDD2C4",
+      "description": "Savor the taste of vitality with our enticing array of healthy food options. We believe in nourishing both body and soul, offering a selection of nutritious and delicious choices. From fresh organic produce to wholesome snacks and superfoods, our offerings cater to your well-being. Enjoy guilt-free indulgence while fueling your body with essential nutrients. Whether you're on a wellness journey or simply seeking a balanced diet, our curated selection supports your health goals. Experience the pleasure of eating well with our thoughtfully chosen, health-conscious foods. Elevate your nutrition and savor the goodness of every bite.",
+      "price": 290.00
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/R39sXQP/Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "card_bg": "#EBF6E2",
+      "text_color": "#79C23F",
+      "button_bg": "#D4ECC1",
+        "description": "Elevate your style with our diverse clothing collection. From timeless classics to the latest fashion trends, we offer an extensive range of apparel that caters to your unique tastes and preferences. Whether you're looking for casual comfort or sophisticated elegance, our curated selection includes outfits for every occasion. Express your individuality and make a lasting impression with our high-quality garments. Discover the perfect attire to showcase your personality and elevate your fashion game. Explore our collection and redefine your wardrobe with stylish and versatile clothing options.",
+        "price": 290.00
+      },
+      {
+        "id": 7,
+        "image": "https://i.ibb.co/XVKGNzq/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "card_bg": "#FFE3E4",
+        "text_color": "#FF444A",
+        "button_bg": "#FFC3C5",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": 290.00
+      },
+      {
+        "id": 8,
+        "image": "https://i.ibb.co/f1SjWpg/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "card_bg": "#D9E5FF",
+        "text_color": "#0052FF",
+        "button_bg": "#AEC8FF",
+        "description": "Prioritize your well-being with our extensive selection of health products. Our range encompasses everything you need to support a healthy lifestyle, from vitamins, supplements, and herbal remedies to fitness equipment and wellness essentials. We believe in holistic health, addressing both physical and mental well-being. Whether you're on a journey to enhance your fitness, manage your weight, or boost your overall vitality, we're here to provide you with the tools, knowledge, and resources to help you live your healthiest life.",
+        "price": 290.00
+      },
+      {
+        "id": 9,
+        "image": "https://i.ibb.co/f1SjWpg/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "card_bg": "#D9E5FF",
+        "text_color": "#0052FF",
+        "button_bg": "#AEC8FF",
+        "description": "Prioritize your well-being with our extensive selection of health products. Our range encompasses everything you need to support a healthy lifestyle, from vitamins, supplements, and herbal remedies to fitness equipment and wellness essentials. We believe in holistic health, addressing both physical and mental well-being. Whether you're on a journey to enhance your fitness, manage your weight, or boost your overall vitality, we're here to provide you with the tools, knowledge, and resources to help you live your healthiest life.",
+        "price": 290.00
+      },
+      {
+        "id": 10,
+        "image": "https://i.ibb.co/XVKGNzq/Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "card_bg": "#FFE3E4",
+        "text_color": "#FF444A",
+        "button_bg": "#FFC3C5",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": 290.00
+      },
+      {
+      "id": 11,
+      "image": "https://i.ibb.co/R39sXQP/Clothing.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#e74c3c",
+      "card_bg": "#EBF6E2",
+      "text_color": "#79C23F",
+      "button_bg": "#D4ECC1",
+      "description": "Elevate your style with our diverse clothing collection. From timeless classics to the latest fashion trends, we offer an extensive range of apparel that caters to your unique tastes and preferences. Whether you're looking for casual comfort or sophisticated elegance, our curated selection includes outfits for every occasion. Express your individuality and make a lasting impression with our high-quality garments. Discover the perfect attire to showcase your personality and elevate your fashion game. Explore our collection and redefine your wardrobe with stylish and versatile clothing options.",
+      "price": 290.00
+    },
+    {
+    "id": 12,
+      "image": "https://i.ibb.co/swZ2ZWd/Food.png",
+      "title": "Better Food for Everyone",
+      "category": "Food",
+      "card_bg": "#FEEAE3",
+      "text_color": "#F87147",
+      "button_bg": "#FDD2C4",
+      "description": "Savor the taste of vitality with our enticing array of healthy food options. We believe in nourishing both body and soul, offering a selection of nutritious and delicious choices. From fresh organic produce to wholesome snacks and superfoods, our offerings cater to your well-being. Enjoy guilt-free indulgence while fueling your body with essential nutrients. Whether you're on a wellness journey or simply seeking a balanced diet, our curated selection supports your health goals. Experience the pleasure of eating well with our thoughtfully chosen, health-conscious foods. Elevate your nutrition and savor the goodness of every bite.",
+      "price": 290.00
+    }
+]

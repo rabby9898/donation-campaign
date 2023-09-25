@@ -1,4 +1,5 @@
-const Banner = () => {
+const Banner = (props) => {
+  const { searchValue, setSearchValue, handleSearch } = props;
   return (
     <div>
       <div
@@ -15,11 +16,16 @@ const Banner = () => {
             </h1>
             <div className="flex justify-center my-6">
               <input
+                value={searchValue}
+                onChange={(e) => setSearchValue(e.target.value)}
                 type="text"
                 placeholder="Search here.."
                 className="input input-bordered border-[#DEDEDE] hover:outline-none focus:outline-none rounded-r-none input-md w-full max-w-xs"
               ></input>
-              <button className="bg-[#FF444A] rounded-r-lg px-7 text-white">
+              <button
+                onClick={handleSearch}
+                className="bg-[#FF444A] rounded-r-lg px-7 text-white"
+              >
                 Search
               </button>
             </div>

@@ -1,7 +1,9 @@
+
 [
       {
         "id": 1,
         "image": "https://i.ibb.co/f1SjWpg/Health.png",
+        "details_img": "https://i.ibb.co/tJRySN3/bf69b0786c15caeae95edc74821add1d.jpg",
         "title": "Clean water for children",
         "category": "Health",
         "card_bg": "#D9E5FF",
@@ -13,6 +15,7 @@
       {
         "id": 2,
         "image": "https://i.ibb.co/XVKGNzq/Education.png",
+        "details_img": "https://i.ibb.co/bvXzphM/bb78eb35b1d83676bfeb091b0af13288.jpg",
         "title": "Good education",
         "category": "Education",
         "card_bg": "#FFE3E4",
@@ -24,6 +27,7 @@
       {
       "id": 3,
       "image": "https://i.ibb.co/R39sXQP/Clothing.png",
+      "details_img": "https://i.ibb.co/61YHKg6/fb4761ab794b7c6a3bbe47db5aada389.jpg",
       "title": "Used Clothing Drive",
       "category": "Clothing",
       "card_bg": "#EBF6E2",
@@ -35,6 +39,7 @@
     {
     "id": 4,
       "image": "https://i.ibb.co/swZ2ZWd/Food.png",
+      "details_img": "https://i.ibb.co/NmqZN3s/a5a6654d792205c42250767f04885dec.jpg",
       "title": "Better Food for Everyone",
       "category": "Food",
       "card_bg": "#FEEAE3",
@@ -46,6 +51,7 @@
     {
     "id": 5,
       "image": "https://i.ibb.co/swZ2ZWd/Food.png",
+      "details_img": "https://i.ibb.co/NmqZN3s/a5a6654d792205c42250767f04885dec.jpg",
       "title": "Better Food for Everyone",
       "category": "Food",
       "card_bg": "#FEEAE3",
@@ -57,6 +63,7 @@
     {
         "id": 6,
         "image": "https://i.ibb.co/R39sXQP/Clothing.png",
+        "details_img": "https://i.ibb.co/61YHKg6/fb4761ab794b7c6a3bbe47db5aada389.jpg",
         "title": "Used Clothing Drive",
         "category": "Clothing",
         "card_bg": "#EBF6E2",
@@ -68,6 +75,7 @@
       {
         "id": 7,
         "image": "https://i.ibb.co/XVKGNzq/Education.png",
+        "details_img": "https://i.ibb.co/bvXzphM/bb78eb35b1d83676bfeb091b0af13288.jpg",
         "title": "Good education",
         "category": "Education",
         "card_bg": "#FFE3E4",
@@ -79,6 +87,7 @@
       {
         "id": 8,
         "image": "https://i.ibb.co/f1SjWpg/Health.png",
+        "details_img": "https://i.ibb.co/tJRySN3/bf69b0786c15caeae95edc74821add1d.jpg",
         "title": "Clean water for children",
         "category": "Health",
         "card_bg": "#D9E5FF",
@@ -90,6 +99,7 @@
       {
         "id": 9,
         "image": "https://i.ibb.co/f1SjWpg/Health.png",
+        "details_img": "https://i.ibb.co/tJRySN3/bf69b0786c15caeae95edc74821add1d.jpg",
         "title": "Clean water for children",
         "category": "Health",
         "card_bg": "#D9E5FF",
@@ -101,6 +111,7 @@
       {
         "id": 10,
         "image": "https://i.ibb.co/XVKGNzq/Education.png",
+        "details_img": "https://i.ibb.co/bvXzphM/bb78eb35b1d83676bfeb091b0af13288.jpg",
         "title": "Good education",
         "category": "Education",
         "card_bg": "#FFE3E4",
@@ -112,6 +123,7 @@
       {
       "id": 11,
       "image": "https://i.ibb.co/R39sXQP/Clothing.png",
+      "details_img": "https://i.ibb.co/61YHKg6/fb4761ab794b7c6a3bbe47db5aada389.jpg",
       "title": "Used Clothing Drive",
       "category": "Clothing",
       "category_bg": "#e74c3c",
@@ -124,6 +136,7 @@
     {
     "id": 12,
       "image": "https://i.ibb.co/swZ2ZWd/Food.png",
+      "details_img": "https://i.ibb.co/NmqZN3s/a5a6654d792205c42250767f04885dec.jpg",
       "title": "Better Food for Everyone",
       "category": "Food",
       "card_bg": "#FEEAE3",

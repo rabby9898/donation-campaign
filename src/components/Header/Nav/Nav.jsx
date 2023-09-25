@@ -6,12 +6,16 @@ const Nav = () => {
       <div className="navbar bg-white my-8 px-5 md:px-10 lg:px-32 ">
         <div className="flex-1">
           <Link>
-            <img src="https://i.ibb.co/f4QbCwq/Logo.png" alt="logo" />
+            <img
+              className="w-[90px]  md:w-full"
+              src="https://i.ibb.co/f4QbCwq/Logo.png"
+              alt="logo"
+            />
           </Link>
         </div>
         <div className="">
-          <ul className="flex gap-8 px-1">
-            <li className="text-lg font-medium">
+          <ul className="flex gap-3 md:gap-8">
+            <li className="text-xs md:text-lg font-medium">
               <NavLink
                 to="/"
                 className={({ isActive, isPending }) =>
@@ -25,7 +29,7 @@ const Nav = () => {
                 Home
               </NavLink>
             </li>
-            <li className="text-lg font-medium">
+            <li className="text-xs md:text-lg font-medium">
               <NavLink
                 to="/donation"
                 className={({ isActive, isPending }) =>
@@ -39,7 +43,7 @@ const Nav = () => {
                 Donation
               </NavLink>
             </li>
-            <li className="text-lg font-medium">
+            <li className="text-xs md:text-lg font-medium">
               <NavLink
                 to="/statistics"
                 className={({ isActive, isPending }) =>

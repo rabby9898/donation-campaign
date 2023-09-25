@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import swal from "sweetalert";
-import { saveCardsInLocal } from "../../Utitlities/Localstorage";
+import {
+  getCardsFromLocal,
+  saveCardsInLocal,
+} from "../../Utitlities/Localstorage";
 
 const CategoryDetails = () => {
   const [details, setDetails] = useState([]);
@@ -18,9 +21,13 @@ const CategoryDetails = () => {
   const { details_img, category, text_color, description, price } = details;
 
   const handleDonate = () => {
-    saveCardsInLocal(id);
-    // setCard(savedCard);
-    swal("Appreciated!", `You've Donated $${price} Successfully!`, "success");
+    const savedCard = getCardsFromLocal();
+    if (savedCard.includes(id)) {
+      return swal("Oops!", "Already Selected This item!", "error");
+    } else {
+      swal("Appreciated!", `You've Donated $${price} Successfully!`, "success");
+      saveCardsInLocal(id);
+    }
   };
   return (
     <>

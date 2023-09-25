@@ -20,7 +20,7 @@ const Banner = (props) => {
                 onChange={(e) => setSearchValue(e.target.value)}
                 type="text"
                 placeholder="Search here.."
-                className="input input-bordered border-[#DEDEDE] hover:outline-none focus:outline-none rounded-r-none input-md w-full max-w-xs"
+                className="input input-bordered border-[#DEDEDE] text-black hover:outline-none focus:outline-none rounded-r-none input-md w-full max-w-xs"
               ></input>
               <button
                 onClick={handleSearch}

@@ -26,10 +26,7 @@ const Home = () => {
         setSearchValue={setSearchValue}
         handleSearch={handleSearch}
       ></Banner>
-      <Categories
-        filteredCards={filteredCards}
-        categories={categories}
-      ></Categories>
+      <Categories filteredCards={filteredCards}></Categories>
     </div>
   );
 };

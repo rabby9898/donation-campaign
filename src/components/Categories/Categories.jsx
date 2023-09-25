@@ -1,6 +1,6 @@
 import Category from "../Categeory/Category";
 
-const Categories = ({ categories, filteredCards }) => {
+const Categories = ({ filteredCards }) => {
   //   console.log(categories);
   return (
     <div className=" relative top-[30rem] lg:top-[36rem] ">

@@ -3,7 +3,7 @@ const Banner = (props) => {
   return (
     <div>
       <div
-        className="hero h-[70vh] absolute w-full bg-cover bg-center bg-no-repeat"
+        className="hero h-[500px] absolute w-full bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: "url(https://i.ibb.co/LYz4dn0/Rectangle-4281.png)",
         }}

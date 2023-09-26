@@ -1,5 +1,4 @@
-import { PieChart, Pie, Sector, Cell, Bar } from "recharts";
-import "./Statistics.css";
+import { PieChart, Pie, Cell } from "recharts";
 import { useLoaderData } from "react-router-dom";
 import { getCardsFromLocal } from "../../Utitlities/Localstorage";
 import { useEffect, useState } from "react";
@@ -64,36 +63,38 @@ const Statistics = () => {
     <>
       <div
         // style={{ position: "relative", textAlign: "center", margin:"auto" }}
-        className="w-full flex justify-center items-center"
-        width="100%"
-        height="100%"
+        className="w-full flex flex-col-reverse  md:flex-row justify-center items-center  my-8 px-5 md:px-10 lg:px-32 "
+        // width="100%"
+        // height="100%"
       >
-        <PieChart width={400} height={400}>
-          <Pie
-            data={data}
-            cx="50%"
-            cy="50%"
-            labelLine={false}
-            label={renderCustomizedLabel}
-            outerRadius={80}
-            fill="#8884d8"
-            dataKey="value"
-          >
-            {data.map((entry, index) => (
-              <Cell
-                key={`cell-${index}`}
-                fill={COLORS[index % COLORS.length]}
-              />
-            ))}
-          </Pie>
-        </PieChart>
+        <div className="">
+          <PieChart width={300} height={300}>
+            <Pie
+              data={data}
+              cx="50%"
+              cy="50%"
+              labelLine={false}
+              label={renderCustomizedLabel}
+              outerRadius={100}
+              fill="#8884d8"
+              dataKey="value"
+            >
+              {data.map((entry, index) => (
+                <Cell
+                  key={`cell-${index}`}
+                  fill={COLORS[index % COLORS.length]}
+                />
+              ))}
+            </Pie>
+          </PieChart>
+        </div>
         <div>
           <div className="flex gap-3 justify-between items-center">
-            <h1>Total:</h1>
+            <h1>Total Donations:</h1>
             <div className="grid w-[50px] h-[30px] rounded bg-[#FF444A] place-content-center"></div>
           </div>
           <div className="flex gap-3 items-center  justify-center my-5">
-            <h1>My Donations:</h1>
+            <h1>Your Donations:</h1>
             <div className="grid w-[50px] h-[30px] rounded bg-[#00C49F] text-accent-content place-content-center"></div>
           </div>
         </div>

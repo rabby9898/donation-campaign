@@ -12,9 +12,9 @@ const Home = () => {
   }, [categories]);
 
   const handleSearch = () => {
-    const searchTerm = searchValue.toLowerCase();
+    const search = searchValue.toLowerCase();
     const filtered = categories.filter(
-      (card) => card.category.toLowerCase() === searchTerm
+      (card) => card.category.toLowerCase() === search
     );
     setFilteredCards(filtered);
   };

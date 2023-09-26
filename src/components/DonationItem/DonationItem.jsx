@@ -8,12 +8,12 @@ const DonationItem = ({ cardItem }) => {
     <div>
       <div
         style={{ backgroundColor: `${card_bg}` }}
-        className="relative flex w-full max-w-[48rem] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
+        className="relative flex w-full max-w-[48rem] h-[350px] flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
       >
         <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
           <img src={image} alt="image" className="h-full w-full object-cover" />
         </div>
-        <div className="p-8">
+        <div className="px-5 py-12 flex flex-col justify-between">
           <div
             className="w-fit  rounded-md mb-4"
             style={{ backgroundColor: `${button_bg}` }}
@@ -36,7 +36,7 @@ const DonationItem = ({ cardItem }) => {
           </p>
           <Link to={`/category-details/${id}`}>
             <button
-              className=" btn flex select-none items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white "
+              className=" btn flex select-none items-center gap-2 rounded-lg py-0 md:py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white "
               style={{ backgroundColor: `${text_color}` }}
               type="button"
             >

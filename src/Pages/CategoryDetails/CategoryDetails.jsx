@@ -8,7 +8,7 @@ import {
 
 const CategoryDetails = () => {
   const [details, setDetails] = useState([]);
-  // const [card, setCard] = useState([]);
+
   const { id } = useParams();
   const idInt = parseInt(id);
   const cards = useLoaderData();
@@ -32,24 +32,30 @@ const CategoryDetails = () => {
   return (
     <>
       <div className="px-5 md:px-10 lg:px-32">
-        <div className="h-full absolute bg-cover bg-center bg-no-repeat">
+        <div className="bg-cover bg-center bg-no-repeat relative">
           <img
-            className="w-[1280px] h-[75vh] rounded-xl"
+            style={{ width: "-webkit-fill-available" }}
+            className="h-[250px] md:h-[350px] lg:h-[500px] rounded-xl absolute"
             src={details_img}
             alt=""
           />
           <button
             onClick={handleDonate}
-            className="btn px-10 py-4 text-white absolute top-[505px] left-[3rem] z-10 hover:outline-none border-0 rounded-md"
+            className="btn text-white absolute top-[190px] md:top-[17rem] lg:top-[27rem] left-[2rem] z-10 hover:outline-none border-0 rounded-md"
             style={{ backgroundColor: `${text_color}` }}
           >
             Donate ${price}
           </button>
-          <div className="absolute w-[1280px] h-[100px] bg-[#0b0b0bcc] opacity-70 top-[477px] rounded-b-xl"></div>
+
+          <div
+            style={{ width: "-webkit-fill-available" }}
+            className="absolute h-[72px] md:h-[100px] bg-[#0b0b0bcc] opacity-70 top-[178px] md:top-[15.6rem] lg:top-[25rem] rounded-b-xl"
+          ></div>
         </div>
-        <div className="relative top-[40rem]">
+
+        <div className="w-full px-5 relative top-[18rem] md:top-[25rem] lg:top-[35rem]">
           <h1 className="text-4xl font-bold text-[##0B0B0B]">{category}</h1>
-          <p className="text-base justify text-[#515151] pt-6 pb-10">
+          <p className="text-sm md:text-base text-justify text-[#515151] pt-6 pb-10">
             {description}
           </p>
         </div>

@@ -22,7 +22,7 @@ const Donation = () => {
   }, [cards]);
   return (
     <>
-      <div className="my-8 px-5 md:px-10 lg:px-32 grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="my-8 px-4 md:px-6 lg:px-32 grid grid-cols-1 md:grid-cols-2 gap-6">
         {isShowAll
           ? displayCards.map((cardItem) => (
               <DonationItem

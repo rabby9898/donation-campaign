@@ -18,7 +18,7 @@ const CategoryDetails = () => {
     setDetails(selectedCards);
   }, [cards, idInt]);
 
-  const { details_img, category, text_color, description, price } = details;
+  const { details_img, title, text_color, description, price } = details;
 
   const handleDonate = () => {
     const savedCard = getCardsFromLocal();
@@ -54,7 +54,7 @@ const CategoryDetails = () => {
         </div>
 
         <div className="w-full px-5 relative top-[18rem] md:top-[25rem] lg:top-[40rem]">
-          <h1 className="text-4xl font-bold text-[##0B0B0B]">{category}</h1>
+          <h1 className="text-4xl font-bold text-[##0B0B0B]">{title}</h1>
           <p className="text-sm md:text-base text-justify text-[#515151] pt-6 pb-10">
             {description}
           </p>

@@ -5,7 +5,7 @@ const Category = ({ categoryInfo }) => {
     categoryInfo;
   return (
     <>
-      <Link to={`/category-details/${id}`}>
+      <Link to={`/donation-details/${id}`}>
         <div
           className="card w-full bg-base-100 shadow-xl"
           style={{ backgroundColor: `${card_bg}` }}

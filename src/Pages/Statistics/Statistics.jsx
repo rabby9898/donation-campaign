@@ -1,7 +1,8 @@
 import { PieChart, Pie, Cell } from "recharts";
 import { useLoaderData } from "react-router-dom";
+
+// import { useEffect } from "react";
 import { getCardsFromLocal } from "../../Utitlities/Localstorage";
-import { useEffect, useState } from "react";
 
 const COLORS = ["#00C49F", "#FF444A"];
 
@@ -33,27 +34,13 @@ const renderCustomizedLabel = ({
 };
 
 const Statistics = () => {
-  const [myDonations, setMyDonations] = useState(0);
   const donations = useLoaderData();
+  const totalDonationsLength = donations.length;
 
-  useEffect(() => {
-    const cardIds = getCardsFromLocal();
-    const selectedDonations = donations.filter((donation) =>
-      cardIds.includes(donation.id.toString())
-    );
+  const storedCard = getCardsFromLocal();
+  const myDonations = storedCard.length;
 
-    const calculatedMyDonations = selectedDonations.reduce(
-      (total, donation) => total + donation.price,
-      0
-    );
-
-    setMyDonations(calculatedMyDonations);
-  }, [donations]);
-
-  const totalDonations = donations.reduce(
-    (prevValue, currentItem) => prevValue + currentItem.price,
-    0
-  );
+  const totalDonations = totalDonationsLength - myDonations;
 
   const data = [
     { name: "My Donations", value: myDonations },
@@ -61,12 +48,7 @@ const Statistics = () => {
   ];
   return (
     <>
-      <div
-        // style={{ position: "relative", textAlign: "center", margin:"auto" }}
-        className="w-full flex flex-col-reverse  md:flex-row justify-center items-center  my-8 px-5 md:px-10 lg:px-32 "
-        // width="100%"
-        // height="100%"
-      >
+      <div className="w-full flex flex-col-reverse  md:flex-row justify-center items-center  my-8 px-5 md:px-10 lg:px-32 ">
         <div className="">
           <PieChart width={300} height={300}>
             <Pie

@@ -10,6 +10,7 @@ const Donation = () => {
 
   useEffect(() => {
     const storedData = getCardsFromLocal();
+
     if (cards.length > 0) {
       const newSaveData = [];
       for (const id of storedData) {
@@ -20,6 +21,7 @@ const Donation = () => {
       setDisplayCards(newSaveData);
     }
   }, [cards]);
+
   return (
     <>
       <div className="my-8 px-4 md:px-6 lg:px-32 grid grid-cols-1 md:grid-cols-2 gap-6">
